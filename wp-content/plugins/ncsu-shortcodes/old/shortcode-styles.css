@@ -1,0 +1,595 @@
+/*
+Table of Contents
+1.0		Base Styles
+		1.1		Brand Colors
+		1.2		Brand Colors - a:hover
+
+*/
+
+
+/* ===== 1.1 - Brand Colors ===== */
+
+.legacy-shortcode .transparentwhite {
+	background-color: none;
+	color: #fff;
+}
+
+.legacy-shortcode .transparentblack {
+	background-color: none;
+	color: #000;
+}
+
+.legacy-shortcode .black {
+	background-color: #000;
+	color: #fff;
+}
+
+.legacy-shortcode .white {
+	background-color: #fff;
+	color: #000;
+}
+
+.legacy-shortcode .gray10 {
+	background-color: #f2f2f2;
+	color: #000;
+}
+
+.legacy-shortcode .gray25 {
+	background-color: #ccc;
+	color: #000;
+}
+
+.legacy-shortcode .gray60 {
+	background-color: #666;
+	color: #fff;
+}
+
+.legacy-shortcode .gray90 {
+	background-color: #333;
+	color: #fff;
+}
+
+.legacy-shortcode .wolfpackred {
+	background-color: #cc0000;
+	color: #fff;
+}
+
+.legacy-shortcode .reynoldsred {
+	background-color: #990000;
+	color: #fff;
+}
+
+.legacy-shortcode .pyromanflame {
+	background-color: #D14905;
+	color: #fff;
+}
+
+.legacy-shortcode .huntyellow {
+	background-color: #FDD726;
+	color: #000;
+}
+
+.legacy-shortcode .genomicgreen {
+	background-color: #6F7D1C;
+	color: #fff;
+}
+
+.legacy-shortcode .innovationblue {
+	background-color: #427E93;
+	color: #fff;
+}
+
+.legacy-shortcode .bioindigo {
+	background-color: #4156A1;
+	color: #fff;
+}
+
+
+
+/* ===== 1.2 - Brand Colors - Links ===== */
+
+.legacy-shortcode .transparentwhite a, .legacy-shortcode .transparentwhite a:hover, .legacy-shortcode .transparentwhite a:active, .legacy-shortcode .transparentwhite a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode .transparentblack a, .legacy-shortcode .transparentblack a:hover, .legacy-shortcode .transparentblack a:active, .legacy-shortcode .transparentblack a:focus {
+	color: #000;
+}
+
+.legacy-shortcode .black a, .legacy-shortcode .black a:hover, .legacy-shortcode .black a:active, .legacy-shortcode .black a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode .white a, .legacy-shortcode .white a:hover, .legacy-shortcode .white a:active, .legacy-shortcode .white a:focus {
+	color: #000;
+}
+
+.legacy-shortcode .gray10 a, .legacy-shortcode .gray10 a:hover, .legacy-shortcode .gray10 a:active, .legacy-shortcode .gray10 a:focus {
+	color: #000;
+}
+
+.legacy-shortcode .gray25 a, .legacy-shortcode .gray25 a:hover, .legacy-shortcode .gray25 a:active, .legacy-shortcode .gray25 a:focus {
+	color: #000;
+}
+
+.legacy-shortcode .gray60 a, .legacy-shortcode .gray60 a:hover, .legacy-shortcode .gray60 a:active, .legacy-shortcode .gray60 a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode .gray90 a, .legacy-shortcode .gray90 a:hover, .legacy-shortcode .gray90 a:active, .legacy-shortcode .gray90 a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode .wolfpackred a, .legacy-shortcode .wolfpackred a:hover, .legacy-shortcode .wolfpackred a:active, .legacy-shortcode .wolfpackred a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode .reynoldsred a, .legacy-shortcode .reynoldsred a:hover, .legacy-shortcode .reynoldsred a:active, .legacy-shortcode .reynoldsred a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode .pyromanflame a, .legacy-shortcode .pyromanflame a:hover, .legacy-shortcode .pyromanflame a:active, .legacy-shortcode .pyromanflame a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode .huntyellow a, .legacy-shortcode .huntyellow a:hover, .legacy-shortcode .huntyellow a:active, .legacy-shortcode .huntyellow a:focus {
+	color: #000;
+}
+
+.legacy-shortcode .genomicgreen a, .legacy-shortcode .genomicgreen a:hover, .legacy-shortcode .genomicgreen a:active, .legacy-shortcode .genomicgreen a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode .innovationblue a, .legacy-shortcode .innovationblue a:hover, .legacy-shortcode .innovationblue a:active, .legacy-shortcode .innovationblue a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode .bioindigo a, .legacy-shortcode .bioindigo a:hover, .legacy-shortcode .bioindigo a:active, .legacy-shortcode .bioindigo a:focus {
+	color: #fff;
+}
+
+.legacy-shortcode a.black:hover, .legacy-shortcode a.black:active, .legacy-shortcode a.black:focus {
+	color: #fff;
+}
+
+.legacy-shortcode a.white:hover, .legacy-shortcode a.white:active, .legacy-shortcode a.white:focus {
+	background-color: #e6e6e6;
+	color: #000;
+}
+
+.legacy-shortcode a.gray10:hover, .legacy-shortcode a.gray10:active, .legacy-shortcode a.gray10:focus {
+	background-color: #d9d9d9;
+	color: #000;
+}
+
+.legacy-shortcode a.gray25:hover, .legacy-shortcode a.gray25:active, .legacy-shortcode a.gray25:focus {
+	background-color: #b3b3b3;
+	color: #000;
+}
+
+.legacy-shortcode a.gray60:hover, .legacy-shortcode a.gray60:active, .legacy-shortcode a.gray60:focus {
+	background-color: #4d4d4d;
+	color: #fff;
+}
+
+.legacy-shortcode a.gray90:hover, .legacy-shortcode a.gray90:active, .legacy-shortcode a.gray90:focus {
+	background-color: #1a1a1a;
+	color: #fff;
+}
+
+.legacy-shortcode a.wolfpackred:hover, .legacy-shortcode a.wolfpackred:active, .legacy-shortcode a.wolfpackred:focus {
+	background-color: #990000;
+	color: #fff;
+}
+
+.legacy-shortcode a.reynoldsred:hover, .legacy-shortcode a.reynoldsred:active, .legacy-shortcode a.reynoldsred:focus {
+	background-color: #660000;
+	color: #fff;
+}
+
+.legacy-shortcode a.pyromanflame:hover, .legacy-shortcode a.pyromanflame:active, .legacy-shortcode a.pyromanflame:focus {
+	background-color: #9f3804;
+	color: #fff;
+}
+
+.legacy-shortcode a.huntyellow:hover, .legacy-shortcode a.huntyellow:active, .legacy-shortcode a.huntyellow:focus {
+	background-color: #edc202;
+	color: #000;
+}
+
+.legacy-shortcode a.genomicgreen:hover, .legacy-shortcode a.genomicgreen:active, .legacy-shortcode a.genomicgreen:focus {
+	background-color: #5a6416;
+	color: #fff;
+}
+
+.legacy-shortcode a.innovationblue:hover, .legacy-shortcode a.innovationblue:active, .legacy-shortcode a.innovationblue:focus {
+	background-color: #336071;
+	color: #fff;
+}
+
+.legacy-shortcode a.bioindigo:hover, .legacy-shortcode a.bioindigo:active, .legacy-shortcode a.bioindigo:focus {
+	background-color: #32427b;
+	color: #fff;
+}
+
+/* ===== Fonts ===== */
+
+.legacy-shortcode .universlight {
+	font-family: 'UniversLight', arial, sans-serif;
+}
+
+.legacy-shortcode .universlightcondensed {
+	font-family: 'UniversLightCondensed', arial, sans-serif;
+}
+
+.legacy-shortcode .universroman {
+	font-family: 'UniversRoman', arial, sans-serif;
+}
+
+.legacy-shortcode .universcondensed {
+	font-family: 'UniversCondensed', arial, sans-serif;
+}
+
+.legacy-shortcode .glypha {
+	font-family: 'Glypha LT W01 55 Roman', Georgia, serif;
+}
+
+.legacy-shortcode .ncsu-icons {
+	font-family: 'ncsu-icons';
+}
+
+.legacy-shortcode i.ncsu-icons {
+	font-style: normal;
+}
+
+.legacy-shortcode h2 {
+	font-size: 1.4em;
+}
+
+/* ===== Alignments ===== */
+
+.legacy-shortcode .element-left {
+	float: left !important;
+}
+
+.legacy-shortcode .element-right {
+	float: right !important;
+}
+
+.legacy-shortcode .element-center {
+	float: none !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	clear: both !important;
+}
+
+
+
+/* ===== Text Alignments ===== */
+
+.legacy-shortcode .textleft {
+	text-align: left;
+}
+
+.legacy-shortcode .textcenter {
+	text-align: center;
+}
+
+.legacy-shortcode .textright {
+	text-align: right;
+}
+
+
+
+/* ===== Callout Styles ===== */
+
+.legacy-shortcode .ncsu-callout-wrapper {
+	margin: 2em;
+	padding: 0 !important;
+}
+
+.legacy-shortcode .ncsu-callout-wrapper.nomargin {
+	margin: 0 auto;
+}
+
+.legacy-shortcode .ncsu-callout-wrapper.container-fluid {
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+	background-size: contain !important;
+	background-repeat: no-repeat !important;
+}
+
+.legacy-shortcode .ncsu-callout.container {
+	width: 100%;
+	padding: 0;
+	position: relative;
+}
+
+.legacy-shortcode .ncsu-callout.ncsu-callout-withbg {
+	margin: 0 !important;
+	min-height: 5.5em;
+}
+
+.legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content.textbottomleft {
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 1em;
+}
+
+.legacy-shortcode .ncsu-callout-wrapper.container-fluid .ncsu-callout.container {
+	max-width: 1170px;
+}
+
+@media screen and (max-width: 768px) {
+	.legacy-shortcode .ncsu-callout.container {
+		padding: 0;
+	}
+}
+
+.legacy-shortcode .ncsu-callout .ncsu-callout-content {
+	padding: 2em;
+}
+
+.legacy-shortcode .ncsu-callout .ncsu-callout-content.full.ncsu-callout-withimg, .legacy-shortcode .ncsu-callout .ncsu-callout-content.browser.ncsu-callout-withimg {
+	height: 300px;
+}
+
+.legacy-shortcode .ncsu-callout .ncsu-callout-content.third.ncsu-callout-withimg, .legacy-shortcode .ncsu-callout .ncsu-callout-content.half.ncsu-callout-withimg {
+	height: auto;
+}
+
+.legacy-shortcode .ncsu-callout .ncsu-callout-header .hero-red h2 {
+	color: #c00;
+	font-size: 2.4em;
+}
+
+.legacy-shortcode .ncsu-callout p.ncsu-callout-body {
+	font-size: 1em;
+}
+
+.legacy-shortcode .ncsu-callout .ncsu-callout-link {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.legacy-shortcode .ncsu-callout .ncsu-callout-img.rightimg img {
+	float: right;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 2em;
+}
+
+.legacy-shortcode .ncsu-callout .ncsu-callout-img.leftimg img {
+	float: left;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 2em;
+	margin-left: 0;
+}
+
+.legacy-shortcode .ncsu-callout-img.leftimg.half {
+	margin-bottom: 2em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.legacy-shortcode .ncsu-callout-img.leftimg.third {
+	margin-bottom: 2em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.legacy-shortcode .ncsu-callout-img.rightimg.half {
+	margin-bottom: 2em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.legacy-shortcode .ncsu-callout-img.rightimg.third {
+	margin-bottom: 2em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+@media screen and (max-width: 992px) {
+	.legacy-shortcode .ncsu-callout .ncsu-callout-img.rightimg {
+		float: none;
+		clear: both;
+		display: block;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	.legacy-shortcode .ncsu-callout .ncsu-callout-img.leftimg {
+		float: none;
+		clear: both;
+		display: block;
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	.legacy-shortcode .ncsu-callout .ncsu-callout-content.ncsu-callout-withimg {
+		height: auto;
+	}
+}
+
+.legacy-shortcode .ncsu-callout-withbg {
+
+}
+
+.legacy-shortcode .ncsu-callout-withbg {
+	top: 0;
+}
+
+.legacy-shortcode img.callout-bg-img {
+	float: left;
+	width: 100%;
+}
+
+.legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content {
+	position: absolute;
+	bottom: 2em;
+	left: 2em;
+	padding: 0 2em;
+}
+
+.legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content.textbottomleft {
+	bottom: 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	padding: 1em;
+}
+
+.legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content.textbottomright {
+	bottom: 2em;
+	right: 2em;
+	left: auto;
+	top: auto;
+	padding: 0 2em;
+}
+
+.legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content.texttopleft {
+	bottom: auto;
+	left: 2em;
+	top: 2em;
+	right: auto;
+	padding: 0 2em;
+}
+
+.legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content.texttopright {
+	bottom: auto;
+	left: auto;
+	top: 2em;
+	right: 2em;
+	padding: 0 2em;
+}
+
+@media screen and (max-width: 992px) {
+	.legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content, .legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content.textbottomleft, .legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content.textbottomright, .legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content.texttopleft, .legacy-shortcode .ncsu-callout-withbg .ncsu-callout-content.texttopright  {
+		position: relative;
+		width: 100%;
+		bottom: auto;
+		top: auto;
+		left: auto;
+		right: auto;
+		float: left;
+		margin-bottom: 2em;
+	}
+	
+	.legacy-shortcode .ncsu-callout-wrapper {
+		float: left;
+	}
+	
+	.legacy-shortcode .transparentwhite a, .legacy-shortcode .transparentwhite a:hover {
+		color: #cc0000;
+	}
+
+	.legacy-shortcode .transparentblack a, .legacy-shortcode .transparentblack a:hover {
+		color: #cc0000;
+	}
+	
+	.legacy-shortcode .ncsu-callout-content .transparentwhite, .legacy-shortcode .ncsu-callout-content .transparentblack {
+		background-color: #f2f2f2;
+	}
+	
+}
+
+.legacy-shortcode .ncsu-callout-withbg.third .ncsu-callout-content {
+	top: 2em;
+	overflow: hidden;
+}
+
+.legacy-shortcode .ncsu-callout .url-arrow:before {
+	content: 'a';
+	font-size: 1.5em;
+	line-height: 1.5rem;
+	vertical-align: middle;
+	display: inline-block;
+	left: 0;
+	top: -1px;
+	-webkit-transition: left 0.2s ease;
+	transition: left 0.2s ease;
+}
+
+.legacy-shortcode .ncsu-callout-image-data {
+	text-align: right;
+	font-size: 0.8em;
+	margin-top: -2em;
+}
+
+.legacy-shortcode .url-arrow {
+	padding-left: 0;
+    -webkit-transition: 0.2s ease;
+    transition: 0.2s ease;
+}
+
+.legacy-shortcode a:hover .url-arrow {
+	padding-left: 10px;
+	margin-right: -10px;
+}
+
+/* ===== Button Styles ===== */
+
+.legacy-shortcode .ncsu-button-wrapper {
+	margin: 1em 0.25em;
+	display: inline-block;
+	width: auto;
+}
+
+.legacy-shortcode .ncsu-button-wrapper.block {
+	display: block;
+	width: 100%;
+}
+
+.legacy-shortcode .ncsu-button {
+	margin: 0.25em 0.25em;
+	display: block;
+}
+
+.legacy-shortcode i.ncsu-icons {
+	font-size: 1em;
+	vertical-align: middle;
+	display: inline-block;
+	line-height: 1.5em;
+}
+
+.legacy-shortcode i.ncsu-icons.left {
+	float: left;
+	margin-right: 0.75em;
+}
+
+.legacy-shortcode i.ncsu-icons.right {
+	float: right;
+	margin-left: 0.75em;
+}
+
+.legacy-shortcode a.ncsu-button.white {
+	color: #cc0000;
+}
+
+.legacy-shortcode a.ncsu-button.white:hover {
+	color: #990000;
+}
+
+
+
+
+/* ===== Google Calendar Events Plugin Styles ===== */
+/* ===== https://wordpress.org/plugins/google-calendar-events/ ===== */
+
+.legacy-shortcode .gce-page-grid li:before {
+	content: '';
+}
